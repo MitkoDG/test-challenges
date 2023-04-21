@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+}
+
+.fl-container,
+.sl-container,
+.tl-container,
+.ll-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+    width: 100%;
+}
+
+.blue-line {
+    background-color: #00a2ff;
+}
+
+.first-line,
+.second-line,
+.third-line,
+.fourth-line {
+    height: 50%;
+    background-color: #00a2ff;
+    border-radius: 0.5rem;
+}
+
+.white-line {
+    background-color: #fff;
+    height: 50%;
+}
+
+.fl-container .blue-line {
+    width: 30%;
+}
+.fl-container .white-line {
+    width: 40%;
+}
+
+.sl-container .blue-line {
+    width: 60%;
+}
+.sl-container .white-line {
+    width: 20%;
+}
+
+.sl-container div:last-child {
+    width: 35%;
+}
+
+.tl-container .blue-line {
+    width: 30%;
+}
+.tl-container .white-line {
+    width: 20%;
+}
+
+.tl-container div:last-child {
+    width: 50%;
+}
+
+.ll-container .blue-line {
+    width: 30%;
+}
+.ll-container .white-line {
+    width: 20%;
+}
+
+.ll-container div:last-child {
+    width: 50%;
+}
