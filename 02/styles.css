@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #add-ball-btn {
+    margin-right: 10px;
+  }
+  
+  #result {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    /* display: none; */
+  }
+  
