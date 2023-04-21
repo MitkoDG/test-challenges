@@ -1,0 +1,12 @@
+{
+  "name": "test-challenges",
+  "version": "1.0.0",
+  "description": "challenges showing my skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "DDG",
+  "license": "ISC"
+}
