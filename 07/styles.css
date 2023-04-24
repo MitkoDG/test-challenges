@@ -25,7 +25,7 @@
 
 .blue-line {
     background: rgb(2, 0, 36);
-    background: linear-gradient(to bottom, rgba(2, 0, 36, 1) 0%, rgb(122, 59, 203) 47%, rgb(46, 69, 237) 100%);
+    background: linear-gradient(to bottom, #2F5DAA 0%, #742266 47%, #FA6AA1 100%);
 }
 
 .first-line,
@@ -34,7 +34,7 @@
 .fourth-line {
     height: 50%;
     background: rgb(2, 0, 36);
-    background: linear-gradient(to bottom, rgba(2, 0, 36, 1) 0%, rgba(81, 59, 250, 1) 47%, rgba(0, 112, 255, 1) 100%);
+    background: linear-gradient(to bottom, #2F5DAA 0%, #742266 47%, #FA6AA1 100%);
     border-radius: 0.5rem;
 }
 
